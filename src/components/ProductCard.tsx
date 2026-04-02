@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Product } from "@/lib/products";
 import { AddToCartButton } from "@/components/AddToCartButton";
@@ -12,27 +13,41 @@ export function ProductCard({
 }) {
   return (
     <article className={styles.card}>
-      <div className={styles.cardHead}>
-        <span className={styles.badge}>{product.category}</span>
-        <span className={styles.price}>
-          ${product.price.toFixed(0)} / {product.unit}
-        </span>
-      </div>
+      {product.image ? (
+        <Link href={`/products/${product.slug}`} className={styles.imageWrap}>
+          <Image
+            src={product.image}
+            alt={product.name}
+            width={400}
+            height={400}
+            className={styles.image}
+          />
+        </Link>
+      ) : null}
 
-      <h2 className={styles.cardTitle}>
-        <Link href={`/products/${product.slug}`}>{product.name}</Link>
-      </h2>
+      <div className={styles.cardBody}>
+        <div className={styles.cardHead}>
+          <span className={styles.badge}>{product.category}</span>
+          <span className={styles.price}>
+            ${product.price.toFixed(0)} / {product.unit}
+          </span>
+        </div>
 
-      <p className={styles.cardDescription}>{product.description}</p>
+        <h2 className={styles.cardTitle}>
+          <Link href={`/products/${product.slug}`}>{product.name}</Link>
+        </h2>
 
-      <div className={styles.actions}>
-        {showAddToCart ? (
-          <AddToCartButton productId={product.id} />
-        ) : (
-          <Link href={`/products/${product.slug}`} className={styles.viewLink}>
-            View details
-          </Link>
-        )}
+        <p className={styles.cardDescription}>{product.description}</p>
+
+        <div className={styles.actions}>
+          {showAddToCart ? (
+            <AddToCartButton productId={product.id} />
+          ) : (
+            <Link href={`/products/${product.slug}`} className={styles.viewLink}>
+              View details
+            </Link>
+          )}
+        </div>
       </div>
     </article>
   );

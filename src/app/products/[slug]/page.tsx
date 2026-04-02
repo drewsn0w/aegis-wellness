@@ -1,15 +1,17 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProductBySlug, getProducts } from "@/lib/products";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductCard } from "@/components/ProductCard";
 import styles from "./page.module.css";
 
-export default function ProductDetailPage({
+export default async function ProductDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const product = getProductBySlug(params.slug);
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
   const relatedProducts = getProducts()
     .filter((candidate) => candidate.category === product?.category && candidate.id !== product?.id)
     .slice(0, 2);
@@ -39,6 +41,19 @@ export default function ProductDetailPage({
 
         <div className={styles.grid}>
           <div className={styles.left}>
+            {product.image ? (
+              <div className={styles.imageCard}>
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  width={600}
+                  height={600}
+                  className={styles.productImage}
+                  priority
+                />
+              </div>
+            ) : null}
+
             <div className={styles.card}>
               <h2 className={styles.sectionTitle}>Overview</h2>
               <p className={styles.description}>{product.description}</p>

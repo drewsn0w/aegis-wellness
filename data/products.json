@@ -1,98 +1,99 @@
 [
   {
-    "id": "cjc-1295",
-    "slug": "cjc-1295",
-    "name": "CJC-1295 (Mod GRF)",
-    "description": "Long-acting GRF analog used in evidence-led biohacking protocols. Always follow label and clinician guidance.",
-    "price": 149.0,
+    "id": "glp-3",
+    "slug": "glp-3",
+    "name": "GLP-3 30mg",
+    "description": "A next-generation GLP-3 peptide protocol at 30mg dosing. Sourced with full chain-of-custody documentation and third-party batch verification.",
+    "price": 185.0,
     "currency": "USD",
-    "unit": "mg",
+    "unit": "30mg vial",
+    "image": "/products/glp-3.png",
     "featured": true,
-    "category": "Growth",
-    "tags": [
-      "GHRP-independent",
-      "peptide"
-    ],
-    "quality": "Third-party tested batch documentation available on request."
-  },
-  {
-    "id": "bpc-157",
-    "slug": "bpc-157",
-    "name": "BPC-157",
-    "description": "A research peptide associated with tissue support protocols. We provide dosing support and sourcing verification.",
-    "price": 129.0,
-    "currency": "USD",
-    "unit": "mg",
-    "featured": true,
-    "category": "Recovery",
-    "tags": [
-      "tissue support",
-      "peptide"
-    ],
-    "quality": "Batch QC summary provided with each request."
-  },
-  {
-    "id": "ipamorelin",
-    "slug": "ipamorelin",
-    "name": "Ipamorelin",
-    "description": "GH secretagogue commonly used in lean-mass and recovery stacks. Request a tailored quote for your target regimen.",
-    "price": 139.0,
-    "currency": "USD",
-    "unit": "mg",
-    "featured": true,
-    "category": "Growth",
-    "tags": [
-      "GH",
-      "secretagogue"
-    ],
-    "quality": "We verify documentation and chain-of-custody details."
-  },
-  {
-    "id": "tb-500",
-    "slug": "tb-500",
-    "name": "TB-500",
-    "description": "A tissue-support peptide used in recovery-focused biohacking. Get guidance on protocol fit and expected logistics.",
-    "price": 159.0,
-    "currency": "USD",
-    "unit": "mg",
-    "featured": true,
-    "category": "Recovery",
-    "tags": [
-      "tissue",
-      "peptide"
-    ],
-    "quality": "Sourcing notes and QC docs available on request."
-  },
-  {
-    "id": "semaglutide-research",
-    "slug": "semaglutide-research",
-    "name": "Semaglutide (Research Grade)",
-    "description": "Research-grade GLP-1 analog protocols. We provide a quote with compliance-first handling notes.",
-    "price": 219.0,
-    "currency": "USD",
-    "unit": "mg",
-    "featured": false,
     "category": "Metabolic",
-    "tags": [
-      "GLP-1",
-      "weight management"
-    ],
-    "quality": "Documentation available; formulation guidance handled by your clinician."
+    "tags": ["GLP-3", "peptide", "metabolic"],
+    "quality": "Third-party tested. Batch documentation and COA available on request."
   },
   {
-    "id": "tirzepatide-research",
-    "slug": "tirzepatide-research",
-    "name": "Tirzepatide (Research Grade)",
-    "description": "Research-grade dual GIP/GLP-1 peptide protocols. Request a quote to receive recommended scheduling and logistics.",
-    "price": 239.0,
+    "id": "klow",
+    "slug": "klow",
+    "name": "KLOW",
+    "description": "A proprietary peptide blend designed for targeted biohacking protocols. Request a quote for protocol-fit guidance and sourcing details.",
+    "price": 90.0,
     "currency": "USD",
-    "unit": "mg",
-    "featured": false,
+    "unit": "vial",
+    "image": "/products/klow.png",
+    "featured": true,
+    "category": "Performance",
+    "tags": ["proprietary", "peptide", "biohacking"],
+    "quality": "Sourcing verification and QC documentation provided with each order."
+  },
+  {
+    "id": "ghk-cu",
+    "slug": "ghk-cu",
+    "name": "GHK-CU 100mg",
+    "description": "Copper peptide complex at 100mg concentration. Widely used in regenerative and skin-support biohacking protocols with strong research backing.",
+    "price": 55.0,
+    "currency": "USD",
+    "unit": "100mg vial",
+    "image": "/products/ghk-cu.png",
+    "featured": true,
+    "category": "Regenerative",
+    "tags": ["copper peptide", "GHK-CU", "skin", "regenerative"],
+    "quality": "Batch QC summary and third-party COA included with each request."
+  },
+  {
+    "id": "nad-plus",
+    "slug": "nad-plus",
+    "name": "NAD+ 1000mg",
+    "description": "High-dose NAD+ at 1000mg for cellular energy and longevity-focused protocols. We provide dosing guidance and full sourcing transparency.",
+    "price": 95.0,
+    "currency": "USD",
+    "unit": "1000mg vial",
+    "image": "/products/nad-plus.png",
+    "featured": true,
+    "category": "Longevity",
+    "tags": ["NAD+", "cellular energy", "longevity", "anti-aging"],
+    "quality": "Third-party tested with batch-level documentation available."
+  },
+  {
+    "id": "glutathione",
+    "slug": "glutathione",
+    "name": "Glutathione 1500mg",
+    "description": "Master antioxidant at 1500mg dosing. Used in detoxification, immune support, and skin health biohacking stacks.",
+    "price": 75.0,
+    "currency": "USD",
+    "unit": "1500mg vial",
+    "image": "/products/glutathione.png",
+    "featured": true,
+    "category": "Detox & Immunity",
+    "tags": ["glutathione", "antioxidant", "detox", "immune support"],
+    "quality": "COA and batch QC documentation provided on request."
+  },
+  {
+    "id": "mots-c",
+    "slug": "mots-c",
+    "name": "MOTS-C 10mg",
+    "description": "Mitochondrial-derived peptide at 10mg for metabolic optimization and exercise performance protocols. Evidence-backed with growing research support.",
+    "price": 60.0,
+    "currency": "USD",
+    "unit": "10mg vial",
+    "image": "/products/mots-c.png",
+    "featured": true,
     "category": "Metabolic",
-    "tags": [
-      "GIP/GLP-1",
-      "protocol"
-    ],
-    "quality": "Batch summary + request-based documentation workflow."
+    "tags": ["MOTS-C", "mitochondrial", "metabolic", "performance"],
+    "quality": "Sourcing notes and third-party batch verification included."
+  },
+  {
+    "id": "melanotan-2",
+    "slug": "melanotan-2",
+    "name": "Melanotan 2",
+    "description": "Synthetic melanocortin peptide used in tanning and skin pigmentation protocols. Full protocol guidance and sourcing documentation available.",
+    "price": 40.0,
+    "currency": "USD",
+    "unit": "vial",
+    "featured": true,
+    "category": "Skin & Pigmentation",
+    "tags": ["melanotan", "tanning", "melanocortin", "skin"],
+    "quality": "Batch summary and COA available with each order request."
   }
 ]

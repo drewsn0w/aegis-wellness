@@ -9,6 +9,7 @@ const productSchema = z.object({
   price: z.number().nonnegative(),
   currency: z.string().min(1),
   unit: z.string().min(1),
+  image: z.string().optional(),
   featured: z.boolean().optional(),
   category: z.string().min(1),
   tags: z.array(z.string()),

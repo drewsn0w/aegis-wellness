@@ -3,6 +3,7 @@ import "./globals.css";
 
 import { CartProvider } from "@/state/cart-context";
 import { SiteHeader } from "@/components/SiteHeader";
+import { DisclaimerGate } from "@/components/DisclaimerGate";
 
 export const metadata: Metadata = {
   title: "Aegis Wellness",
@@ -18,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <CartProvider>
+          <DisclaimerGate />
           <div className="campaignBar">The Premier Provider for Research Peptides</div>
           <SiteHeader />
           <main style={{ flex: 1 }}>{children}</main>
