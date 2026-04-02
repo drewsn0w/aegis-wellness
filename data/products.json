@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cjc-1295",
+    "slug": "cjc-1295",
+    "name": "CJC-1295 (Mod GRF)",
+    "description": "Long-acting GRF analog used in evidence-led biohacking protocols. Always follow label and clinician guidance.",
+    "price": 149.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": true,
+    "category": "Growth",
+    "tags": [
+      "GHRP-independent",
+      "peptide"
+    ],
+    "quality": "Third-party tested batch documentation available on request."
+  },
+  {
+    "id": "bpc-157",
+    "slug": "bpc-157",
+    "name": "BPC-157",
+    "description": "A research peptide associated with tissue support protocols. We provide dosing support and sourcing verification.",
+    "price": 129.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": true,
+    "category": "Recovery",
+    "tags": [
+      "tissue support",
+      "peptide"
+    ],
+    "quality": "Batch QC summary provided with each request."
+  },
+  {
+    "id": "ipamorelin",
+    "slug": "ipamorelin",
+    "name": "Ipamorelin",
+    "description": "GH secretagogue commonly used in lean-mass and recovery stacks. Request a tailored quote for your target regimen.",
+    "price": 139.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": true,
+    "category": "Growth",
+    "tags": [
+      "GH",
+      "secretagogue"
+    ],
+    "quality": "We verify documentation and chain-of-custody details."
+  },
+  {
+    "id": "tb-500",
+    "slug": "tb-500",
+    "name": "TB-500",
+    "description": "A tissue-support peptide used in recovery-focused biohacking. Get guidance on protocol fit and expected logistics.",
+    "price": 159.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": true,
+    "category": "Recovery",
+    "tags": [
+      "tissue",
+      "peptide"
+    ],
+    "quality": "Sourcing notes and QC docs available on request."
+  },
+  {
+    "id": "semaglutide-research",
+    "slug": "semaglutide-research",
+    "name": "Semaglutide (Research Grade)",
+    "description": "Research-grade GLP-1 analog protocols. We provide a quote with compliance-first handling notes.",
+    "price": 219.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": false,
+    "category": "Metabolic",
+    "tags": [
+      "GLP-1",
+      "weight management"
+    ],
+    "quality": "Documentation available; formulation guidance handled by your clinician."
+  },
+  {
+    "id": "tirzepatide-research",
+    "slug": "tirzepatide-research",
+    "name": "Tirzepatide (Research Grade)",
+    "description": "Research-grade dual GIP/GLP-1 peptide protocols. Request a quote to receive recommended scheduling and logistics.",
+    "price": 239.0,
+    "currency": "USD",
+    "unit": "mg",
+    "featured": false,
+    "category": "Metabolic",
+    "tags": [
+      "GIP/GLP-1",
+      "protocol"
+    ],
+    "quality": "Batch summary + request-based documentation workflow."
+  }
+]
