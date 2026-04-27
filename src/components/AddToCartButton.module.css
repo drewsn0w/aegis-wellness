@@ -16,7 +16,7 @@
   padding: 0 20px;
   border-radius: 999px;
   background: var(--accent-strong);
-  color: #fff;
+  color: var(--bg);
   font-weight: 700;
   cursor: pointer;
   box-shadow: var(--shadow-sm);

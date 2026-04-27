@@ -22,7 +22,7 @@ export function AddToCartButton({ productId }: { productId: string }) {
         className={styles.btn}
         onClick={() => add(productId, qty)}
       >
-        Add to cart
+        Buy Now
       </button>
 
       <div className={styles.meta}>
